@@ -36,3 +36,7 @@ This is the backend service for the Summarization App, built using Node.js, Expr
    ```sh
    npm start
    ```
+
+## For Contact
+
+rofa.alfons7@gmail.com
