@@ -24,3 +24,15 @@ This is the backend service for the Summarization App, built using Node.js, Expr
    git clone https://github.com/Rofael-Alfons/webScrapingBackend.git
    cd webScrapingBackend
    ```
+
+2. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Start app:
+
+   ```sh
+   npm start
+   ```
