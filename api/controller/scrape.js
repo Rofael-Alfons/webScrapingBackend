@@ -77,6 +77,6 @@ exports.postScrape = async (req, res, next) => {
     console.error("Error:", error);
     res
       .status(500)
-      .json({ error: "Failed to scrape or summarize the website" });
+      .json({ error: "We are facing some issues, please try again" });
   }
 };
