@@ -11,6 +11,15 @@ app.use(express.json());
 
 app.use("/api", apiRoutes);
 
+const logEveryTenMinutes = () => {
+  console.log("Wake up");
+};
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
+  // Initial call to log immediately on startup
+  logEveryTenMinutes();
+
+  // Start the interval to log every 10 minutes (600000 milliseconds)
+  setInterval(logEveryTenMinutes, 10 * 60 * 1000);
 });
